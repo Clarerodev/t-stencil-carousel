@@ -1,3 +1,43 @@
 :host {
   display: block;
 }
+
+.procedures-container {
+  display: flex;
+  align-items: center;
+}
+
+.procedure__card {
+  display: flex;
+  align-items: center;
+  padding: 15px 8px;
+  border: 1px solid rgb(230, 239, 253);
+  background:  #fff;
+  border-radius: 5px;
+}
+
+.procedure__card-ico {
+  margin-right: 5px;
+}
+
+.procedure__card-title {
+  font-family: Work Sans, sans-serif;
+  font-size: .875rem;
+  color: rgb(0, 72, 132);
+  font-weight: 500;
+  text-decoration: underline !important;
+}
+
+.carousel-section {
+  display: none;
+}
+
+.carousel-row {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.carousel-section.active {
+  display: block;
+}
